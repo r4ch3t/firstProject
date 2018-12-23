@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
+  #validates :Post, presence: true
+
 
   # GET /posts
   # GET /posts.json
